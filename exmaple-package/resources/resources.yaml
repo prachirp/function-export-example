@@ -25,7 +25,7 @@ metadata:
   labels:
     app: nginx
     # You can remove this label and see what will happen to your workflow result.
-    owner: alice
+    # owner: alice
 spec:
   replicas: 3
   selector:
