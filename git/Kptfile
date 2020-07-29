@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+    name: git
+upstream:
+    type: git
+    git:
+        commit: 2fa2e40357bfebbd739d475eab233972a8e16782
+        repo: https://github.com/tektoncd/catalog
+        directory: git
+        ref: v1beta1
